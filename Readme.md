@@ -10,4 +10,4 @@ After logging in you will be redirected to admin route where you can see a grid 
 
 Each grid uses custom JavaScripts. They are not like a web component for now.
 
-login.js an admin.js are the main scripts files. Customer's grid script is also in admin.js.
+login.js an admin.js are the main scripts files. Main grid script is also in admin.js.
