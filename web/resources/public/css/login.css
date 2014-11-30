@@ -1,0 +1,7 @@
+.container {
+    width: 250px;
+}
+
+#loginSuccessRoute {
+ visibility: hidden;
+}

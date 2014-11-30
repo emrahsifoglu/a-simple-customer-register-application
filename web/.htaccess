@@ -1,0 +1,8 @@
+Options -MultiViews
+RewriteEngine On
+Options -Indexes
+RewriteBase /a-simple-customer-register-application/web
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,NC,L]

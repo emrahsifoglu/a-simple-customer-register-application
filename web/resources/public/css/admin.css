@@ -1,0 +1,57 @@
+body {
+    font-family:'lucida grande', tahoma, verdana, arial, sans-serif; font-size:11px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+a {
+    color: #548dc4; text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table.grid {
+    border-collapse: collapse; border: 1px solid #CCB;
+}
+
+table.grid td,
+table.grid th {
+    padding: 5px; border: 1px solid #E0E0E0;
+}
+
+table.grid th {
+    background: #E5E5E5; text-align: left;
+}
+
+input.invalid {
+    background: red; color: #FDFDFD;
+}
+
+table.form {
+
+}
+
+table.form tr,
+table.form td {
+    border: none;
+    padding: 0;
+}
+
+.filter {
+    width: 16px;
+    height: 16px;
+}
+
+.crud {
+    width: 16px;
+    height: 16px;
+}
+
+.sort {
+    color: black;
+    text-decoration: underline;
+}
